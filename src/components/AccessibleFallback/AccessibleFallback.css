@@ -1,0 +1,28 @@
+.accessible-fallback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.accessible-fallback::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  border: 4px solid #ccc;
+  border-top: 4px solid #1890ff;
+  border-radius: 50%;
+  animation: spinner 1s linear infinite;
+  margin-left: 10px;
+}
