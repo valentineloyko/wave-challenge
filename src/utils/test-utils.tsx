@@ -7,7 +7,7 @@ const createTestQueryClient = () => {
   return new QueryClient({
     defaultOptions: {
       queries: {
-        retry: false, // Disable retries to fail tests faster
+        retry: false,
       },
     },
   });
