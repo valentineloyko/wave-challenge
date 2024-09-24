@@ -4,25 +4,26 @@ Follow these instructions to run and test the application.
 
 ### Installation
 
-1. **Clone the Repository**
+1. **Clone the Repository from bundle file and navigate to the folder**
 
    ```bash
-   cd wave-challenge
+   git clone /path/to/valentyn_loiko_front_end.bundle -b main valentyn-loiko-front-end
+   ```
 
+   ```bash
+   cd valentyn-loiko-front-end
    ```
 
 2. **Install Dependencies**
 
    ```bash
    npm install
-
    ```
 
 3. **Running the Application**
 
    ```bash
    npm run dev
-
    ```
 
 4. **Running Tests**
